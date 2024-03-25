@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <h1>Travel</h1>
+    <p>resize the browser window to see the effects</p> 
+</head>
+<body>
+    <style>
+        p{
+            text-align: center;
+        }
+        h1{
+            text-align: center; 
+            font-size: 50px;  
+            font-family: Times New Roman;
+        }
+        nav {  
+            background-color: #333;  
+            padding: 10px;  
+        }  
+        nav ul {  
+            list-style-type: none;  
+            margin: 0;  
+            padding: 0;  
+            overflow: hidden;  
+        }  
+        nav li {  
+            float: left;  
+        }  
+        nav li a {  
+            display: block;  
+            color: white;  
+            text-align: center;  
+            padding: 14px 16px;  
+            text-decoration: none;  
+        }  
+        nav li a:hover {  
+            background-color: #111;  
+        }  
+        .active {  
+            background-color: #4CAF50;  
+        }  
+        .allin{
+            width:1457px;
+            height: 800px; 
+
+            background-color: rgb(192, 184, 184);}
+            footer {  
+            background-color: #333;  
+            color: #fff;  
+            padding: 20px;  
+            text-align: center;  
+            font-size: 14px;
+            position: absolute;
+            top: 900px;  
+        } 
+        .footers{
+            width: 1440px; 
+            height: 100px; 
+
+        }
+
+        h2{
+        font-size: 20px;
+            position: absolute;
+            left:8px;
+        }
+     .rere{
+        position: absolute;
+        top:350px;
+
+     }
+     h3{
+        position: absolute;
+        top:300px
+
+     }
+     h4{
+        position: absolute;
+        left:800px;
+        top:300px;  
+     }
+     .ger{
+        position: absolute;
+        left:750px;
+        top:350px;
+     }
+    </style>
+  
+    <nav>  
+        <ul>  
+            <li><a href="myself.html" class="<% if (currentPage == 'page1') { %>active<% } %>">HOME</a></li>  
+            <li><a href="page2.html" class="<% if (currentPage == 'page2') { %>active<% } %>">PROJECT</a></li>  
+            <li><a href="page3.html" class="<% if (currentPage == 'page3') { %>active<% } %>">TRAVAL</a></li>  
+        </ul>  
+    </nav>  
+    <div class="allin">
+        <div class="travel">
+      <h2>I love to travel, I have been to many countries, cities, and each one is a beautiful place that I will never want to leave
+        </h2>
+        </div>
+        <h3>Eiffel Tower, Paris, France</h3>
+        <h4>Munich, Germany</h4>
+        <img class="rere" src="rere.jpg"width="700" height="600" >
+        <img class="ger" src="Germany.jpeg"width="700" height="600">
+
+        <footer>
+            <div class="footers">
+            <p> © 2023 Iverson's Website. All rights reserved.</p> 
+            <p>contact us <a href="mailto:support@example.com">support@example.com</a></p>  
+            <p>Terms of Use | Privacy Policy</p>  
+            </div>
+        </footer>  
+</div>
+</body>
+</html>
