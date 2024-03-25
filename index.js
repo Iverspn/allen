@@ -1,8 +1,4 @@
-//  
-// Iverson(HouYanchao)  
-// ID：223190608
-  
-
+console.log('I am Iverson My ip is XXXX, My adress is xxx MY ncc number is 223190608');
 const sqlite3 = require('sqlite3').verbose();  
   
 // Note 2: Create a database connection  
