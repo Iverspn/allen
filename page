@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <h1>PROJECT</h1>  
+    <p>resize the browser window to see the effects</p> 
+</head>
+
+<body>
+    <style>
+         nav {  
+            background-color: #333;  
+            padding: 10px;  
+        }  
+        nav ul {  
+            list-style-type: none;  
+            margin: 0;  
+            padding: 0;  
+            overflow: hidden;  
+        }  
+        nav li {  
+            float: left;  
+        }  
+        nav li a {  
+            display: block;  
+            color: white;  
+            text-align: center;  
+            padding: 14px 16px;  
+            text-decoration: none;  
+        }  
+        nav li a:hover {  
+            background-color: #111;  
+        }  
+        .active {  
+            background-color: #4CAF50;  
+        }  
+        .allin{
+            width:1457px;
+            height: 1800px; 
+
+            background-color: rgb(192, 184, 184);}
+
+       .project{
+            width:900px;   
+            height: 550px; 
+            background-color: #ffffff;
+            position: absolute;
+            left: 8px;
+            top:250px;
+        }
+       
+         p{
+            text-align: center;}
+    h1{
+    
+            text-align: center; 
+            font-size: 50px;  
+            font-family: Times New Roman;}
+    h2{
+        font-size: 20px;
+            position: absolute;
+            left:8px;
+    }     
+    h3{
+        font-size: 15px;
+        position: absolute;
+        top:30px;
+    }  
+    .target{
+        width:900px;   
+            height: 500px; 
+            background-color: #ffffff;
+            position: absolute;
+            left: 8px;
+            top:850px 
+    }
+    .time{
+        width:900px;   
+            height: 500px; 
+            background-color: #ffffff;
+            position: absolute;
+            left: 8px;
+            top:1400px 
+    }
+    footer {  
+            background-color: #333;  
+            color: #fff;  
+            padding: 20px;  
+            text-align: center;  
+            font-size: 14px;
+            position: absolute;
+            top: 2000px;  
+        } 
+        .footers{
+            width: 1450px; 
+            height: 100px; 
+
+        }
+        .chengguo{
+            width:500px;   
+            height: 800px; 
+            background-color: #ffffff;
+            position: absolute;
+            right: 8px;
+            top:250px
+        }
+    
+
+    </style>
+    <nav>  
+        <ul>  
+            <li><a href="myself.html" class="<% if (currentPage == 'page1') { %>active<% } %>">HOME</a></li>  
+            <li><a href="page2.html" class="<% if (currentPage == 'page2') { %>active<% } %>">PROJECT</a></li>  
+            <li><a href="page3.html" class="<% if (currentPage == 'page3') { %>active<% } %>">TRAVAL</a></li>  
+        </ul>  
+    </nav>  
+<div class="allin">
+<div class="project">
+    <h2>Project Overview</h2>
+    <h3>Project Name: Smart Medical Information Management Platform<br>
+Project Background: With the rapid development of the medical industry <br>
+and the deepening of information construction, medical institutions are <br>
+facing increasingly complex data management and service requirements. This<br>
+ project aims to build a smart medical information management platform that <br>
+ integrates medical data management, medical service optimization and patient <br>
+ experience improvement to meet the diverse needs of medical institutions and patients.</h3>
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+ <img src="project.jpg"width="500" height="300" >
+</div>
+<div class="target">
+    <h2>Project objective</h2>
+    <h3>1Realize the unified management and efficient utilization of medical data, and improve the management level and service quality of medical institutions.
+        Optimize the medical service process and improve the efficiency and satisfaction of medical services.
+        Improve the patient experience, realize doctor-patient interaction and information sharing.</h3>
+        <br> <br> <br> <br> <br> <br> <br>
+        <img src="pp1.jpg"width="500" height="300" >
+
+</div>
+<div class="time">
+    <h2>Project scheduling</h2>
+    <h3>Project initiation phase (1 month): complete project demand research, team building and plan formulation.
+        Technology R&D stage (6 months): complete platform architecture design, functional module development and testing.
+        Pilot operation phase (3 months): Pilot operation will be carried out in some medical institutions, feedback will be collected and optimization and adjustment will be made.
+        Comprehensive promotion stage (continuous): On the basis of the success of the pilot, it will be fully promoted to more medical institutions to achieve the wide application of the platform.</h3>
+        <br> <br> <br> <br> <br> <br> <br><br><br>
+        <img src="p1.jpg"width="700" height="300" >
+    </div>
+<div class="chengguo">
+    <h2>results of </h2>
+    <h3>Upon completion of this project, it is expected to achieve the following outcomes:
+
+        Improve the management level and service quality of medical institutions, and reduce operating costs.
+        Optimize the medical service process, shorten the waiting time of patients, and improve service efficiency.
+        Improve the patient experience and enhance patients' trust and satisfaction with medical institutions.</h3>
+        <br> <br> <br> <br> <br> <br> <br><br><br>
+        <img src="5.jpg"width="500" height="600" >
+
+</div>
+    <footer>
+        <div class="footers">
+        <p> © 2023 Iverson's Website. All rights reserved.</p> 
+        <p>contact us <a href="mailto:support@example.com">support@example.com</a></p>  
+        <p>Terms of Use | Privacy Policy</p>  
+        </div>
+    </footer>  
+</div>
+</body>
+</html>
