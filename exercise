@@ -1,1 +1,201 @@
+<!DOCTYPE html>  
+<html lang="zh">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>myself</title>  
+    <h1>HOME</h1>  
+    <p>resize the browser window to see the effects</p> 
+    <style>  
+        p{
+            text-align: center;
+        }
+        h1{
+            text-align: center; 
+            font-size: 50px;  
+            font-family: Times New Roman;
+        }
+        nav {  
+            background-color: #333;  
+            padding: 10px;  
+        }  
+        nav ul {  
+            list-style-type: none;  
+            margin: 0;  
+            padding: 0;  
+            overflow: hidden;  
+        }  
+        nav li {  
+            float: left;  
+        }  
+        nav li a {  
+            display: block;  
+            color: white;  
+            text-align: center;  
+            padding: 14px 16px;  
+            text-decoration: none;  
+        }  
+        nav li a:hover {  
+            background-color: #111;  
+        }  
+        .active {  
+            background-color: #4CAF50;  
+        }  
+        .row{
+            width:900px;   
+            height: 550px; 
+            background-color: #f8bfe8;
+            position: absolute;
+            left: 8px;
+            top:250px
+        }
+        .about{
+            width:500px;   
+            height: 300px; 
+            background-color: #c1ffc7;
+            position: absolute;
+            right: 8px;
+            top:250px
 
+        }
+        .allin{
+            width:1457px;
+            height: 1300px; 
+
+            background-color: rgb(192, 184, 184);
+        }
+        h3{ 
+            font-size: 20px;
+            position: absolute;
+            left:8px;
+            top:-3px;
+        }
+        h5{font-size: 20px;
+            position: absolute;
+            left:8px;
+        }
+        .card{
+            width:900px;   
+            height: 400px; 
+            background-color: #f4fda8;
+            position: absolute;
+            left: 8px;
+            top:850px
+        }
+        ol{
+            position: absolute;
+            top:100px
+        }
+        .popular{
+            width: 500px; 
+            height: 400px; 
+            background-color: #fbaaaa;
+            position: absolute;
+            right: 8px;
+            top:600px
+        }
+        h9{
+            position: absolute;
+            top: 170px;
+        }
+        /* footer */  
+        footer {  
+            background-color: #333;  
+            color: #fff;  
+            padding: 20px;  
+            text-align: center;  
+            font-size: 14px;
+            position: absolute;
+            top: 1400px;  
+        } 
+        .footers{
+            width: 1457px; 
+            height: 100px; 
+
+        }
+        .imgg{
+            position: absolute;
+            left:300px;
+        }
+        .gg{
+            position: absolute;
+            left:250px;
+
+        }
+       
+
+       
+    </style>  
+</head>  
+<body>  
+  
+<nav>  
+    <ul>  
+        <li><a href="myself.html" class="<% if (currentPage == 'page1') { %>active<% } %>">HOME</a></li>  
+        <li><a href="page2.html" class="<% if (currentPage == 'page2') { %>active<% } %>">PROJECT</a></li>  
+        <li><a href="page3.html" class="<% if (currentPage == 'page3') { %>active<% } %>">TRAVAL</a></li>  
+    </ul>  
+</nav>  
+<div class="allin">
+<div class="row">
+        <h2>Iverson </h2>
+        <h5> March 18, 2024</h5>
+        <div class="fakeimg" style="height:200px;">
+        <img src="nbcc.jpg"width="600" height="200" >
+  
+
+        </div>
+        <h4> Hi, my name is Iverson, I'm 20 years old, and I'm a student from NBCC. <br>
+            It's a pleasure to meet you here, and I'm going to introduce myself briefly.<br>
+             I love what I am studying. Since entering the university, I have always maintained <br>
+              thirst for knowledge and a reverence for academics. I work hard to learn <br>
+              professional knowledge, actively participate in various academic activities, and<br>
+               constantly improve my professional quality and practical ability. At the same time, <br>
+               I also pay attention to the industry dynamics and strive to combine what I have learned <br>
+               with practice to fully prepare for my future career.</h4>
+        
+      </div>
+      <div class="about">
+      <h3>about me</h3><br><br>
+      <img src="myp.jpg"width="200" height="100" >
+      <img class="gg" src="my2.jpg"width="200" height="100" ><br><br>
+      <h9>I enjoy reading, traveling, and photography, and these activities allow me to relax, <br>
+        broaden my horizons, and enrich my life experience. I also love sports, especially<br>
+         basketball and badminton, which keep me fit and positive.</h9>
+      </div>
+      <div class="card">
+        <h5>Iverson's card</h5>
+        <ol>  
+            <li>lname:Hou</li>
+            <li>fname:Yanchao</li>
+            <li>English name:Iverson</li>
+            <li>Phone number:12345678</li>  
+            <li>e-mail:105932884@qq.com</li>  
+            <li>city:Ningbo China</li>  
+           
+          </ol>
+          <img class="imgg" src="my.jpg"width="400" height="400" >
+      </div>
+      <div class="popular">
+        <h7>popular post</h7><br><br>
+        <img src="popular1.jpg"width="300" height="100" ><br><br>
+        <img src="popular2.webp"width="300" height="100" ><br><br>
+        <img src="popular3.png"width="300" height="100" >
+      </div>
+
+
+
+  
+  
+  
+
+<footer>
+    <div class="footers">
+    <p> © 2023 Iverson's Website. All rights reserved.</p> 
+    <p>contact us <a href="mailto:support@example.com">support@example.com</a></p>  
+    <p>Terms of Use | Privacy Policy</p>  
+    </div>
+</footer>  
+</div>
+</body>  
+</html>
