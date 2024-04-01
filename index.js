@@ -1,3 +1,4 @@
+// (4) Add your name and ID to the first line of JavaScript  
 console.log('I am Iverson My ip is XXXX, My adress is xxx MY ncc number is 223190608');
 const sqlite3 = require('sqlite3').verbose();  
   
@@ -45,7 +46,7 @@ function listBooks() {
             throw err;  
         }  
         rows.forEach((row) => {  
-            console.log(`Title: ${row.title}, Author: ${row.author}, ISBN: ${row.ISBN}, Content: ${row.content}`);  
+            console.log(`Title608: ${row.title}, Author608: ${row.author}, ISBN608: ${row.ISBN}, Content608: ${row.content}`);  
         });  
     });  
 }  
@@ -57,15 +58,15 @@ const rl = readline.createInterface({
     output: process.stdout  
 });  
   
-rl.question('Please enter a title for the book (title): ', (title) => {  
-    rl.question('Please enter the author of the book (author): ', (author) => {  
-        rl.question('Please enter the ISBN of the book (ISBN): ', (ISBN) => {  
-            rl.question('Please enter the contents of the book (content): ', (content) => {  
+rl.question('Please enter a title for the book (title608): ', (title) => {  
+    rl.question('Please enter the author of the book (author608): ', (author) => {  
+        rl.question('Please enter the ISBN of the book (ISBN608): ', (ISBN) => {  
+            rl.question('Please enter the contents of the book (content608): ', (content) => {  
                 addBook(title, author, ISBN, content);  
                 rl.question('Do you want to continue entering book information?(yes/no): ', (continueInput) => {  
                     if (continueInput.toLowerCase() === 'yes') {  
                        
-                        rl.question('Please enter a title for the book (title): ', (title) => {  
+                        rl.question('Please enter a title for the book (title608): ', (title) => {  
                            
                         });  
                     } else {  
